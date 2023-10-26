@@ -1,5 +1,5 @@
 # A/B Testing at Blue Academy
-
+![](https://github.com/SawsanYusuf/AB-Testing-at-Blue-Academy/blob/main/images/istockphoto-1395685005-1024x1024.jpg)
 Overview:
 A/B testing, also known as a randomized controlled experiment, is demonstrated by this project. Private companies use A/B testing to improve email marketing and product pricing. Political campaigns use it to test messages. Additionally, scientists use it in their research.
 
