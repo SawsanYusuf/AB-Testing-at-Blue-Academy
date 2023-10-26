@@ -1,14 +1,15 @@
 # A/B Testing at Blue Academy
 ![](https://github.com/SawsanYusuf/AB-Testing-at-Blue-Academy/blob/main/images/istockphoto-1395685005-1024x1024.jpg)
-Overview:
+
+# Overview:
 A/B testing, also known as a randomized controlled experiment, is demonstrated by this project. Private companies use A/B testing to improve email marketing and product pricing. Political campaigns use it to test messages. Additionally, scientists use it in their research.
 
-Project Scenario:
+# Project Scenario:
 Blue Academy is an education platform that provides a learning path about data science and machine learning. There is no condition to enroll in this path except passing a short Python quiz. However, many applicants to the path never complete the Python quiz, which is a prerequisite for admission. Therefore, we designed an experiment to see if we could increase quiz completion.
 
-Note: This project is based on synthetic data that mimics real data, including names, birthdays, and email addresses.
+**Note**: This project is based on synthetic data that mimics real data, including names, birthdays, and email addresses.
 
-Data Processing and Analysis: 
+# Data Processing and Analysis: 
 First, we connected to the academy's MongoDB database and analyzed the demographic information of the applicants. We used an open-source library called Country Converter to standardize the nationality data. We created a map to visualize the regional trends. We also utilized the date diff operator to convert the birth dates to ages. Lastly, we sorted the education levels into a dictionary comprehension to make it easier to read in a horizontal chart.
 
 To prepare our data for the experiment, we moved to the ETL (extract, transform, and load) process. We identified the no-quiz applicants who opened an account on the platform but did not take the admissions quiz. We then developed a research question, a null hypothesis, and an alternate hypothesis. Our null hypothesis was that there's no relationship between getting and sending an email to an applicant and completing the quiz. Our alternate hypothesis was that there is a relationship, and if we send them an email, they are more likely to complete the quiz.
